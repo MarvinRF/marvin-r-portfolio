@@ -66,7 +66,7 @@
       }
       > img {
         @include mobile {
-          border-radius: calc(var(--layout-columns-gap) * 0.5);
+          border-radius: calc(var(--layout-columns-gap) * 0.3);
         }
         border-radius: calc(var(--layout-columns-gap) * 1);
       }

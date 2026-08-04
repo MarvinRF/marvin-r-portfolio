@@ -5,13 +5,13 @@ const containt = [
     smallTitle: 'Development',
     bigTitle: 'Development Lifecycle',
     desc: [
-      <div className="p-l">I approach front-end development with a focus on creating visually stunning,</div>,
-      <div className="p-l">intuitive, and efficient web applications. Each project follows a methodical</div>,
+      <div className="p-l">I approach fullstack development with a focus on creating accessible, high-performance,</div>,
+      <div className="p-l">and efficient web applications. Each project follows a methodical</div>,
       <div className="p-l">plan to assure it exceeds standards of quality and performance.</div>,
     ],
     descMobile: [
-      <div className="p-l"> I approach front-end development with a focus on creating visually</div>,
-      <div className="p-l"> stunning, intuitive, and efficient web applications. Each project</div>,
+      <div className="p-l"> I approach fullstack development with a focus on creating accessible,</div>,
+      <div className="p-l"> high-performance, and efficient web applications. Each project</div>,
       <div className="p-l">follows a methodical plan to ensure it exceeds standards of quality</div>,
       <div className="p-l">and performance.</div>,
     ],
@@ -31,12 +31,12 @@ const containt = [
     smallTitle: 'Workflow',
     bigTitle: 'Workflow',
     desc: [
-      <div className="p-l">My workflow for front-end development is centered on teamwork, productivity,</div>,
+      <div className="p-l">My workflow for fullstack development is centered on teamwork, productivity,</div>,
       <div className="p-l">and delivering high-quality code. I leverage the latest tools and techniques</div>,
       <div className="p-l">to provide engaging and smooth user experiences.</div>,
     ],
     descMobile: [
-      <div className="p-l"> My workflow for front-end development is centered on teamwork,</div>,
+      <div className="p-l"> My workflow for fullstack development is centered on teamwork,</div>,
       <div className="p-l">productivity, and delivering high-quality code. I leverage the latest</div>,
       <div className="p-l">tools and techniques to provide engaging and smooth user</div>,
       <div className="p-l">experiences.</div>,

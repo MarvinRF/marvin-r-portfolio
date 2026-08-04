@@ -1,15 +1,15 @@
 const projectsLinks = [
   {
-    title: 'Project 3',
-    href: '/projects/project3',
+    title: 'Saipos',
+    href: '/projects/saipos',
   },
   {
-    title: 'Project 4',
-    href: '/projects/project4',
+    title: 'TARGIT Brasil',
+    href: '/projects/targit',
   },
   {
-    title: 'Project 2',
-    href: '/projects/project2',
+    title: 'T-Alpha',
+    href: '/projects/t-alpha',
   },
 ];
 export default projectsLinks;

@@ -225,12 +225,12 @@ function Home() {
     <section ref={rootRef} className={clsx(styles.root)}>
       <div className={clsx(styles.topContainer, 'layout-grid-inner')}>
         <div className={styles.leftContainer}>
-          <h2 className="h2">Remarkable</h2>
-          <h2 className={clsx('h2', 'bold')}>Virtual Experiences</h2>
+          <h2 className="h2">Accessible</h2>
+          <h2 className={clsx('h2', 'bold')}>Digital Ecosystems</h2>
         </div>
         {!isMobile && (
           <h6 className={clsx('h6', styles.rightContainer)}>
-            With years of experience, I create immersive digital environments that elevate your virtual presence. Join me in redefining digital interaction.
+            Senior Fullstack Engineer building mission-critical systems where extreme performance meets rigorous WCAG 2.2 compliance. Next.js, NestJS, Kafka, DDD & AWS.
           </h6>
         )}
       </div>
@@ -250,7 +250,7 @@ function Home() {
       </div>
       {isMobile && (
         <div className={styles.rightContainerMobile}>
-          <h6 className="h6"> With years of experience, I create immersive digital environments that elevate your virtual presence. Join me in redefining digital interaction.</h6>
+          <h6 className="h6"> Senior Fullstack Engineer building mission-critical systems where extreme performance meets rigorous WCAG 2.2 compliance. Next.js, NestJS, Kafka, DDD & AWS.</h6>
         </div>
       )}
 

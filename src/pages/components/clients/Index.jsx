@@ -56,7 +56,7 @@ function Clients() {
       {isMobile ? <div className={styles.mobileEmpty} /> : null}
       {isMobile ? (
         <div className={styles.mobileCount}>
-          <AppearTitle>2024</AppearTitle>
+          <AppearTitle>2026</AppearTitle>
         </div>
       ) : null}
       <div
@@ -71,17 +71,15 @@ function Clients() {
       {isMobile ? (
         <div className={styles.textMobile}>
           <AppearTitle>
-            <h4 className={clsx('h4', 'bold')}>Company 1</h4>
+            <h4 className={clsx('h4', 'bold')}>Saipos</h4>
           </AppearTitle>
           <AppearTitle>
-            <div className="p-l">Lorem ipsum dolor sit amet, consectetur</div>
-            <div className="p-l">adipiscing elit. Sed do eiusmod tempor</div>
-            <div className="p-l">incididunt ut labore et dolore magna aliqua.</div>
-            <div className="p-l">Ut enim ad minim veniam, quis nostrud</div>
-            <div className="p-l">exercitation ullamco laboris nisi ut aliquip</div>
-            <div className="p-l">ex ea commodo consequat. Duis aute irure</div>
-            <div className="p-l">dolor in reprehenderit in voluptate velit</div>
-            <div className="p-l">esse cillum dolore eu fugiat nulla pariatur.</div>
+            <div className="p-l">Senior Fullstack Engineer leading frontend</div>
+            <div className="p-l">engineering and digital strategy for the Saipos</div>
+            <div className="p-l">rebranding — a multi-thousand-location</div>
+            <div className="p-l">restaurant SaaS product. WCAG 2.2 AA/AAA</div>
+            <div className="p-l">compliance, sub-1s LCP, and 99.9%+ availability</div>
+            <div className="p-l">via Cloudflare Workers & Vercel edge.</div>
           </AppearTitle>
         </div>
       ) : null}
@@ -95,20 +93,18 @@ function Clients() {
             className={styles.firstText}
           >
             <AppearTitle>
-              <h6 className="h6">2024</h6>
+              <h6 className="h6">2026</h6>
             </AppearTitle>
             <AppearTitle>
-              <h4 className={clsx('h4', 'bold', styles.title)}>Company 1</h4>
+              <h4 className={clsx('h4', 'bold', styles.title)}>Saipos</h4>
             </AppearTitle>
             <AppearTitle>
-              <div className="p-l">Lorem ipsum dolor sit amet, consectetur</div>
-              <div className="p-l">adipiscing elit. Sed do eiusmod tempor</div>
-              <div className="p-l">incididunt ut labore et dolore magna aliqua.</div>
-              <div className="p-l">Ut enim ad minim veniam, quis nostrud</div>
-              <div className="p-l">exercitation ullamco laboris nisi ut aliquip</div>
-              <div className="p-l">ex ea commodo consequat. Duis aute irure</div>
-              <div className="p-l">dolor in reprehenderit in voluptate velit</div>
-              <div className="p-l">esse cillum dolore eu fugiat nulla pariatur.</div>
+              <div className="p-l">Senior Fullstack Engineer leading frontend</div>
+              <div className="p-l">engineering and digital strategy for the Saipos</div>
+              <div className="p-l">rebranding — a multi-thousand-location</div>
+              <div className="p-l">restaurant SaaS product. WCAG 2.2 AA/AAA</div>
+              <div className="p-l">compliance, sub-1s LCP, and 99.9%+ availability</div>
+              <div className="p-l">via Cloudflare Workers & Vercel edge.</div>
             </AppearTitle>
           </div>
         </>
@@ -117,7 +113,7 @@ function Clients() {
       {isMobile ? <div className={styles.mobileEmpty} /> : null}
       {isMobile ? (
         <div className={styles.mobileCount}>
-          <AppearTitle>2023</AppearTitle>
+          <AppearTitle>2024</AppearTitle>
         </div>
       ) : null}
       <div
@@ -132,17 +128,14 @@ function Clients() {
       {isMobile ? (
         <div className={styles.textMobile}>
           <AppearTitle>
-            <h4 className={clsx('h4', 'bold')}>Company 2</h4>
+            <h4 className={clsx('h4', 'bold')}>T-Alpha</h4>
           </AppearTitle>
           <AppearTitle>
-            <div className="p-l">Lorem ipsum dolor sit amet, consectetur</div>
-            <div className="p-l">adipiscing elit. Sed do eiusmod tempor</div>
-            <div className="p-l">incididunt ut labore et dolore magna aliqua.</div>
-            <div className="p-l">Ut enim ad minim veniam, quis nostrud</div>
-            <div className="p-l">exercitation ullamco laboris nisi ut aliquip</div>
-            <div className="p-l">ex ea commodo consequat. Duis aute irure</div>
-            <div className="p-l">dolor in reprehenderit in voluptate velit</div>
-            <div className="p-l">esse cillum dolore eu fugiat nulla pariatur.</div>
+            <div className="p-l">Fullstack Engineer & Accessibility Lead for</div>
+            <div className="p-l">two production fintech platforms (V2X Pay and</div>
+            <div className="p-l">Planium Pay). Led the Next.js 15 migration:</div>
+            <div className="p-l">72% TTFB reduction, 67% smaller bundles, and</div>
+            <div className="p-l">a WCAG 2.2 AA-compliant banking design system.</div>
           </AppearTitle>
         </div>
       ) : null}
@@ -155,20 +148,17 @@ function Clients() {
             className={styles.secondText}
           >
             <AppearTitle>
-              <h6 className="h6">2023</h6>
+              <h6 className="h6">2024</h6>
             </AppearTitle>
             <AppearTitle>
-              <h4 className={clsx('h4', 'bold', styles.title)}>Company 2</h4>
+              <h4 className={clsx('h4', 'bold', styles.title)}>T-Alpha</h4>
             </AppearTitle>
             <AppearTitle>
-              <div className="p-l">Lorem ipsum dolor sit amet, consectetur</div>
-              <div className="p-l">adipiscing elit. Sed do eiusmod tempor</div>
-              <div className="p-l">incididunt ut labore et dolore magna aliqua.</div>
-              <div className="p-l">Ut enim ad minim veniam, quis nostrud</div>
-              <div className="p-l">exercitation ullamco laboris nisi ut aliquip</div>
-              <div className="p-l">ex ea commodo consequat. Duis aute irure</div>
-              <div className="p-l">dolor in reprehenderit in voluptate velit</div>
-              <div className="p-l">esse cillum dolore eu fugiat nulla pariatur.</div>
+              <div className="p-l">Fullstack Engineer & Accessibility Lead for</div>
+              <div className="p-l">two production fintech platforms (V2X Pay and</div>
+              <div className="p-l">Planium Pay). Led the Next.js 15 migration:</div>
+              <div className="p-l">72% TTFB reduction, 67% smaller bundles, and</div>
+              <div className="p-l">a WCAG 2.2 AA-compliant banking design system.</div>
             </AppearTitle>
           </div>
           <div className={styles.fourthEmpty} />
@@ -177,7 +167,7 @@ function Clients() {
       {isMobile ? <div className={styles.mobileEmpty} /> : null}
       {isMobile ? (
         <div className={styles.mobileCount}>
-          <AppearTitle>2021</AppearTitle>
+          <AppearTitle>2026</AppearTitle>
         </div>
       ) : null}
       <div
@@ -192,17 +182,14 @@ function Clients() {
       {isMobile ? (
         <div className={styles.textMobile}>
           <AppearTitle>
-            <h4 className={clsx('h4', 'bold')}>Company 3</h4>
+            <h4 className={clsx('h4', 'bold')}>TARGIT Brasil</h4>
           </AppearTitle>
           <AppearTitle>
-            <div className="p-l">Lorem ipsum dolor sit amet, consectetur</div>
-            <div className="p-l">adipiscing elit. Sed do eiusmod tempor</div>
-            <div className="p-l">incididunt ut labore et dolore magna aliqua.</div>
-            <div className="p-l">Ut enim ad minim veniam, quis nostrud</div>
-            <div className="p-l">exercitation ullamco laboris nisi ut aliquip</div>
-            <div className="p-l">ex ea commodo consequat. Duis aute irure</div>
-            <div className="p-l">dolor in reprehenderit in voluptate velit</div>
-            <div className="p-l">esse cillum dolore eu fugiat nulla pariatur.</div>
+            <div className="p-l">Software Engineer & AI Architect — built</div>
+            <div className="p-l">Capivara Compass from zero, a native</div>
+            <div className="p-l">AI-driven Business Analytics platform with</div>
+            <div className="p-l">WCAG 2.1/2.2 compliance by design and</div>
+            <div className="p-l">predictive forecasting AI agents.</div>
           </AppearTitle>
         </div>
       ) : null}
@@ -216,20 +203,17 @@ function Clients() {
             className={styles.thirdText}
           >
             <AppearTitle>
-              <h6 className="h6">2021</h6>
+              <h6 className="h6">2026</h6>
             </AppearTitle>
             <AppearTitle>
-              <h4 className={clsx('h4', 'bold', styles.title)}>Company 3</h4>
+              <h4 className={clsx('h4', 'bold', styles.title)}>TARGIT Brasil</h4>
             </AppearTitle>
             <AppearTitle>
-              <div className="p-l">Lorem ipsum dolor sit amet, consectetur</div>
-              <div className="p-l">adipiscing elit. Sed do eiusmod tempor</div>
-              <div className="p-l">incididunt ut labore et dolore magna aliqua.</div>
-              <div className="p-l">Ut enim ad minim veniam, quis nostrud</div>
-              <div className="p-l">exercitation ullamco laboris nisi ut aliquip</div>
-              <div className="p-l">ex ea commodo consequat. Duis aute irure</div>
-              <div className="p-l">dolor in reprehenderit in voluptate velit</div>
-              <div className="p-l">esse cillum dolore eu fugiat nulla pariatur.</div>
+              <div className="p-l">Software Engineer & AI Architect — built</div>
+              <div className="p-l">Capivara Compass from zero, a native</div>
+              <div className="p-l">AI-driven Business Analytics platform with</div>
+              <div className="p-l">WCAG 2.1/2.2 compliance by design and</div>
+              <div className="p-l">predictive forecasting AI agents.</div>
             </AppearTitle>
           </div>
         </>

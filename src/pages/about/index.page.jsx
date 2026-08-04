@@ -6,19 +6,19 @@ import Process from '@src/pages/about/components/process/Process';
 import CustomHead from '@src/components/dom/CustomHead';
 
 const seo = {
-  title: 'Giats - About',
-  description: 'Learn about my journey, values, and commitment to quality web and app solutions.',
+  title: 'Marvin Rocha - About',
+  description:
+    'Learn about my journey as a Senior Fullstack Engineer and Digital Accessibility Expert (WCAG 2.2 / WAS Candidate) — engineering digital ecosystems where extreme performance meets rigorous compliance.',
   keywords: [
-    'Giats',
-    'About Evangelos Giatsidis',
+    'Marvin Rocha',
+    'About Marvin Rocha',
     'About me',
-    'Frontend Developer Journey',
-    'Web Developer Story',
+    'Fullstack Engineer Journey',
+    'Accessibility Expert',
     'Professional Web Development',
-    'Frontend Development Expertise',
-    'Web Design Skills',
-    'Web Development Services',
-    'Web Design Expertise',
+    'Fintech Engineering Expertise',
+    'WCAG Compliance',
+    'AWS Cloud Architecture',
     'Developer Profile',
     'Quality Web Solutions',
   ],

@@ -23,7 +23,7 @@ function Projects() {
   const rootRef = useRef();
   const projectRefs = useRef([]);
 
-  const newProjects = [projects[0], projects[1], projects[4]];
+  const newProjects = [projects[0], projects[1], projects[2]];
 
   const setupProjectAnimations = () => {
     const ctx = gsap.context(() => {
@@ -93,9 +93,11 @@ function Projects() {
                   </div>
                 </div>
               </div>
-              <div ref={(el) => (projectRefs.current[index] = el)} className={styles.canvas}>
-                <Image priority className={index === 0 ? styles.firstCard : index === newProjects.length - 1 ? styles.lastCard : undefined} src={project.img} fill sizes="100%" alt={project.title} />
-              </div>
+              <div
+                ref={(el) => (projectRefs.current[index] = el)}
+                style={{ backgroundColor: project.secondary }}
+                className={clsx(styles.canvas, index === 0 ? styles.firstCard : index === newProjects.length - 1 ? styles.lastCard : undefined)}
+              />
             </Link>
           ))}
         </div>

@@ -16,23 +16,18 @@ import { useStore } from '@src/store';
 import { useWindowSize } from '@darkroom.engineering/hamo';
 
 const seo = {
-  title: 'Giats - Projects',
-  description: 'Explore my portfolio to see a range of frontend projects, from responsive websites to web applications. Discover my work with React, Nextjs, React three fiber, Electron and more.',
+  title: 'Marvin Rocha - Projects',
+  description: 'Explore case studies from Saipos, TARGIT Brasil, T-Alpha, TELUS International, Valença City Hall, and Sign-IC (UFBA) — fullstack engineering, accessibility, and performance work.',
   keywords: [
-    'Giats Projects',
+    'Marvin Rocha Projects',
     'Portfolio Showcase',
-    'Frontend Development Examples',
-    'Web Design Portfolio',
-    'Responsive Web Projects',
-    'Web Applications Portfolio',
-    'HTML and CSS Projects',
-    'JavaScript Development',
-    'React Work',
+    'Fullstack Engineering Case Studies',
+    'Accessibility WCAG Projects',
     'Next.js Projects',
-    'React Three Fiber Projects',
-    'Electron Projects',
+    'NestJS Projects',
+    'Fintech Banking Projects',
     'Professional Web Development',
-    'Evangelos Giatsidis Projects',
+    'Marvin Rocha Portfolio',
   ],
 };
 

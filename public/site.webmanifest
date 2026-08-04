@@ -1,7 +1,7 @@
 {
-  "name": "Giats - Frontend Developer Portfolio",
-  "short_name": "Giats - Portfolio",
-  "description": "Self-taught front-end developer from Greece, crafting sleek and efficient web, desktop, and mobile apps. Combining creativity and technical skill to deliver innovative user-centric solutions.",
+  "name": "Marvin Rocha - Senior Fullstack Engineer Portfolio",
+  "short_name": "Marvin Rocha",
+  "description": "Senior Fullstack Engineer building mission-critical systems where extreme performance meets rigorous WCAG 2.2 compliance. Next.js, NestJS, Kafka & DDD.",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
