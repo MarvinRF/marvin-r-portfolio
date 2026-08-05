@@ -52,7 +52,7 @@ function Hero() {
       </header>
       <div className={styles.wrapper}>
         <div ref={heroImageRef} className={styles.imageContainer}>
-          <Image priority quality={100} src="/companies/foto.jpeg" sizes="100%" fill alt="Marvin Rocha" />
+          <Image priority quality={100} src="/companies/apple-hero.webp" sizes="100%" fill alt="Redwood forest" />
         </div>
       </div>
     </section>

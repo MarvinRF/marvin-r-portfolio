@@ -2,7 +2,7 @@
 
 import * as THREE from 'three';
 
-import { Environment, Sphere, Text, View, useTexture } from '@react-three/drei';
+import { Environment, Sphere, View, useTexture } from '@react-three/drei';
 import { createPortal, extend, useFrame } from '@react-three/fiber';
 import { useMemo, useRef, useState } from 'react';
 
@@ -72,13 +72,6 @@ function Marble({ roughness, color, isSphere, text }) {
           <MagicMarbleMaterial isSphere={isSphere} texture={texture} color={color} roughness={roughness} />
         </mesh>
       )}
-      {scene &&
-        createPortal(
-        <Text scale={[0.7, 1.5, 1]} fontSize={isSphere ? 1 : 0.8}>
-          {text}
-        </Text>,
-        scene,
-        )}
     </>
   );
 }
