@@ -42,7 +42,7 @@ function About() {
 
   const renderImageContainer = () => (
     <div className={styles.imageContainer}>
-      <Image priority src="/companies/facepic.jpeg" sizes="100%"  objectFit="cover" fill alt="Marvin Rocha" />
+      <Image priority src="/companies/facepic.jpeg" sizes="100%" objectFit="cover" fill alt="Marvin Rocha" />
     </div>
   );
 

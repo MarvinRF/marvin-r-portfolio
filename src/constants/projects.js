@@ -102,9 +102,7 @@ const projects = [
     menuColor: '#3E6B4F',
     menuFontColor: '#FFFFFF',
     fluidColor: '#C9A227',
-    images: [
-      { src: '/project-valenca/cover.png', tag: 'logo', isRight: false },
-    ],
+    images: [{ src: '/project-valenca/cover.png', tag: 'logo', isRight: false }],
     desc: [
       'Fullstack developer on a city-wide EdTech transformation initiative — building and maintaining a municipal school management platform adopted across 137 public schools.',
       'Reduced recurring support tickets by 40% through improvements driven by feedback from 5,000+ active educators, while acting as the technical liaison between pedagogical and engineering teams.',

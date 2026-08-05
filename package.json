@@ -1,7 +1,12 @@
 {
-  "name": "portofoliomigration",
+  "name": "marvin-rocha-portfolio",
   "version": "0.1.0",
   "private": true,
+  "author": "Marvin Rocha",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MarvinRF/marvin-r-portfolio"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

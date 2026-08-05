@@ -1,6 +1,6 @@
 # Marvin Rocha — Personal Portfolio Website
 
-Personal portfolio of **Marvin Rocha**, Senior Fullstack Engineer, built on top of the award-winning [giats.me](https://giats.me) template by [Evangelos Giatsidis](https://github.com/Giats2498), adapted with real content, case studies, and branding.
+Personal portfolio of **Marvin Rocha**, Senior Fullstack Engineer.
 
 ---
 
@@ -35,9 +35,9 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ---
 
-## 📄 License & Attribution
+## 📄 License
 
-Licensed under the **MIT License**. Original portfolio design and development by **Evangelos Giatsidis — [giats.me](https://giats.me)**; adapted and personalized by **Marvin Rocha**.
+Licensed under the **MIT License**.
 
 ---
 
