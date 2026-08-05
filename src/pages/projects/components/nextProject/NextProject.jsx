@@ -28,9 +28,7 @@ function NextProject({ nextProject }) {
               </div>
             </div>
 
-            <div className={styles.canvas}>
-              <Image priority sizes="100%" src={nextProject.img} fill alt={nextProject.title} />
-            </div>
+            <div className={styles.canvas} style={{ backgroundColor: nextProject.secondary }} />
           </Link>
         </div>
       </section>

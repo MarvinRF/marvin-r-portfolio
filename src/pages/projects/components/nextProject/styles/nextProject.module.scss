@@ -134,12 +134,11 @@
               transform: translate(-50%, -50%);
             }
             > img {
-              box-shadow: 0 0 0 0.01vw rgb(40, 40, 43, 0.3);
-              object-fit: fill;
+              object-fit: contain;
+              object-position: right center;
               @include mobile {
-                border-radius: calc(var(--layout-columns-gap) * 0.25);
+                object-position: center;
               }
-              border-radius: calc(var(--layout-columns-gap) * 0.5);
             }
           }
         }
@@ -157,13 +156,9 @@
         position: absolute;
         right: 0;
         top: 0;
-
-        > img {
-          border-radius: var(--layout-columns-gap);
-          @include mobile {
-            border-radius: calc(var(--layout-columns-gap) * 0.5);
-          }
-          object-fit: cover;
+        border-radius: var(--layout-columns-gap);
+        @include mobile {
+          border-radius: calc(var(--layout-columns-gap) * 0.5);
         }
       }
     }
