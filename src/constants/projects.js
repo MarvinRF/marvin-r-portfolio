@@ -14,12 +14,7 @@ const projects = [
     menuColor: '#FF5A36',
     menuFontColor: '#FFFFFF',
     fluidColor: '#FF5A36',
-    images: [
-      { src: '/project-saipos/cover.png', tag: 'big', isRight: false },
-      { src: '/project-saipos/cover.png', tag: 'medium', isRight: false },
-      { src: '/project-saipos/cover.png', tag: 'medium', isRight: true },
-      { src: '/project-saipos/cover.png', tag: 'big', isRight: false },
-    ],
+    images: [{ src: '/project-saipos/cover.png', tag: 'logo', isRight: false }],
     desc: [
       'Senior Fullstack Engineer leading the end-to-end frontend engineering and digital strategy for the Saipos rebranding, transforming the marketing ecosystem for a multi-thousand-location restaurant SaaS product.',
       'Implemented WCAG 2.2 AA/AAA standards with a focus on keyboard navigation, focus management, and robust ARIA patterns, directly reducing ADA-related legal exposure.',
@@ -41,11 +36,7 @@ const projects = [
     menuColor: '#3B5BFF',
     menuFontColor: '#FFFFFF',
     fluidColor: '#3B5BFF',
-    images: [
-      { src: '/project-targit/cover.png', tag: 'big', isRight: false },
-      { src: '/project-targit/cover.png', tag: 'medium', isRight: false },
-      { src: '/project-targit/cover.png', tag: 'medium', isRight: true },
-    ],
+    images: [{ src: '/project-targit/cover.png', tag: 'logo', isRight: false }],
     desc: [
       'Architected Capivara Compass from zero — a native AI-driven Business Analytics platform — ensuring high-performance data visualization met strict WCAG 2.1/2.2 compliance from day one.',
       'Built analytical dashboards with WAI-ARIA patterns, ensuring KPIs, OKRs, and financial metrics were fully operable via keyboard and screen readers.',
@@ -67,12 +58,7 @@ const projects = [
     menuColor: '#0057FF',
     menuFontColor: '#FFFFFF',
     fluidColor: '#00C2A8',
-    images: [
-      { src: '/project-talpha/logo.png', tag: 'big', isRight: false },
-      { src: '/project-talpha/logo.png', tag: 'small', isRight: false },
-      { src: '/project-talpha/logo.png', tag: 'small', isRight: true },
-      { src: '/project-talpha/logo.png', tag: 'big', isRight: false },
-    ],
+    images: [{ src: '/project-talpha/logo.png', tag: 'logo', isRight: false }],
     desc: [
       'Led frontend architecture and WCAG 2.2 AA accessibility strategy for two production fintech platforms (V2X Pay and Planium Pay), covering Internet Banking and Backoffice systems.',
       'Architected a domain-driven NestJS banking backend (Pix, TED, onboarding, webhooks) with RabbitMQ async messaging, delivering critical modules 3 weeks ahead of schedule.',
@@ -94,10 +80,7 @@ const projects = [
     menuColor: '#4B286D',
     menuFontColor: '#FFFFFF',
     fluidColor: '#66CC00',
-    images: [
-      { src: '/project-telus/cover.png', tag: 'big', isRight: false },
-      { src: '/project-telus/cover.png', tag: 'medium', isRight: false },
-    ],
+    images: [{ src: '/project-telus/cover.png', tag: 'logo', isRight: false }],
     desc: [
       'Apple Siri Speech Study — started as Data Analyst evaluating search and multimodal query quality, promoted to Lead Moderator after achieving 100% validation across 200+ sessions.',
       'Evaluated 230+ daily multimodal queries against Google/Bing Rater Guidelines, running A/B tests that directly informed improvements to Siri’s NLP and search algorithms.',
@@ -119,11 +102,7 @@ const projects = [
     menuColor: '#3E6B4F',
     menuFontColor: '#FFFFFF',
     fluidColor: '#C9A227',
-    images: [
-      { src: '/project-valenca/cover.png', tag: 'big', isRight: false },
-      { src: '/project-valenca/cover.png', tag: 'medium', isRight: false },
-      { src: '/project-valenca/cover.png', tag: 'medium', isRight: true },
-    ],
+    images: [{ src: '/project-valenca/cover.png', tag: 'logo', isRight: false }],
     desc: [
       'Fullstack developer on a city-wide EdTech transformation initiative — building and maintaining a municipal school management platform adopted across 137 public schools.',
       'Reduced recurring support tickets by 40% through improvements driven by feedback from 5,000+ active educators, while acting as the technical liaison between pedagogical and engineering teams.',
@@ -145,10 +124,7 @@ const projects = [
     menuColor: '#0B3C8C',
     menuFontColor: '#FFFFFF',
     fluidColor: '#F2C230',
-    images: [
-      { src: '/project-signic/cover.jpg', tag: 'big', isRight: false },
-      { src: '/project-signic/cover.jpg', tag: 'medium', isRight: false },
-    ],
+    images: [{ src: '/project-signic/cover.jpg', tag: 'logo', isRight: false }],
     desc: [
       'Technical Lead on a university-wide digital signature platform for UFBA, digitizing critical academic workflows with a secure multi-signer flow.',
       'Architected a secure multi-signer flow with cryptographic verification, ensuring the integrity and authenticity of signed documents.',

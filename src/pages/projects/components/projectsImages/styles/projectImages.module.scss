@@ -68,6 +68,23 @@
       border-radius: calc(var(--layout-columns-gap) * 0.5);
     }
   }
+  .logoContainer {
+    grid-column: 1 / 17;
+    position: relative;
+    aspect-ratio: 16 / 7;
+    background-color: transparent;
+    @include mobile {
+      grid-column: 1 / 7;
+      aspect-ratio: 4 / 3;
+    }
+    > img {
+      object-fit: contain;
+      padding: calc(var(--layout-columns-gap) * 2);
+      @include mobile {
+        padding: var(--layout-columns-gap);
+      }
+    }
+  }
   .videoContainer {
     grid-column: 1 / 17;
     position: relative;

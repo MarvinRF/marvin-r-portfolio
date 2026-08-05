@@ -43,6 +43,13 @@ function ProjectImages({ project }) {
           </div>
         );
       }
+      if (tag === 'logo') {
+        return (
+          <div className={styles.logoContainer}>
+            <Image priority sizes="100%" src={src} fill alt={`${title} logo`} />
+          </div>
+        );
+      }
       return null;
     },
     [isMobile],
