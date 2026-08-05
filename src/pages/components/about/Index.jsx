@@ -42,14 +42,7 @@ function About() {
 
   const renderImageContainer = () => (
     <div className={styles.imageContainer}>
-      <Image
-        priority
-        src="/companies/facepic.jpeg"
-        sizes="100%"
-        objectFit="cover"
-        fill
-        alt="Marvin Rocha"
-      />
+      <Image priority src="/companies/facepic.jpeg" sizes="100%" objectFit="cover" fill alt="Marvin Rocha" />
     </div>
   );
 
@@ -67,9 +60,8 @@ function About() {
         <div className={clsx(styles.descWrapper)} ref={animatedImageRef}>
           <AppearTitle>
             <div className="p-l">
-              “Building mission-critical systems where extreme performance meets
-              rigorous WCAG 2.2 compliance! that&apos;s what drives me to solve
-              problems creatively and deliver on your project goals”
+              “Building mission-critical systems where extreme performance meets rigorous WCAG 2.2 compliance! that&apos;s what drives me to solve problems creatively and deliver on your project
+              goals”
             </div>
           </AppearTitle>
         </div>
@@ -78,27 +70,16 @@ function About() {
           {!isMobile ? (
             <AppearTitle key="desktop-descWrapperBottom">
               <h6 className="h6">
-                A Fullstack Engineer from Brazil, building resilient backends
-                with DDD/Clean Architecture while ensuring the products they
-                power are inclusive, lightning-fast, and legally secure. IAAP
+                A Fullstack Engineer from Brazil, building resilient backends with DDD/Clean Architecture while ensuring the products they power are inclusive, lightning-fast, and legally secure. IAAP
                 WAS Candidate, M.Sc. student at UFBA.
               </h6>
             </AppearTitle>
           ) : (
             <AppearTitle key="mobile-descWrapperBottom">
-              <h6 className="h6">
-                {' '}
-                A Fullstack Engineer from Brazil, building resilient
-              </h6>
-              <h6 className="h6">
-                backends with DDD/Clean Architecture while ensuring the
-              </h6>
-              <h6 className="h6">
-                products they power are inclusive, lightning-fast, and legally
-              </h6>
-              <h6 className="h6">
-                secure. IAAP WAS Candidate, M.Sc. student at UFBA.
-              </h6>
+              <h6 className="h6"> A Fullstack Engineer from Brazil, building resilient</h6>
+              <h6 className="h6">backends with DDD/Clean Architecture while ensuring the</h6>
+              <h6 className="h6">products they power are inclusive, lightning-fast, and legally</h6>
+              <h6 className="h6">secure. IAAP WAS Candidate, M.Sc. student at UFBA.</h6>
             </AppearTitle>
           )}
           <div className={clsx(styles.buttonContainer)}>
