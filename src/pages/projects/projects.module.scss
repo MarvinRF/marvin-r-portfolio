@@ -139,12 +139,11 @@
               transform: translate(-50%, -50%);
             }
             > img {
-              box-shadow: 0 0 0 0.01vw rgb(40, 40, 43, 0.3);
-              object-fit: fill;
+              object-fit: contain;
+              object-position: right center;
               @include mobile {
-                border-radius: calc(var(--layout-columns-gap) * 0.25);
+                object-position: center;
               }
-              border-radius: calc(var(--layout-columns-gap) * 0.5);
             }
           }
         }
@@ -163,12 +162,7 @@
         right: 0;
         top: 0;
 
-        > img {
-          border-radius: 0px !important;
-          object-fit: cover;
-        }
-
-        .firstCard {
+        &.firstCard {
           border-top-left-radius: var(--layout-columns-gap) !important;
           border-top-right-radius: var(--layout-columns-gap) !important;
 
@@ -182,7 +176,7 @@
           }
         }
 
-        .lastCard {
+        &.lastCard {
           border-bottom-left-radius: var(--layout-columns-gap) !important;
           border-bottom-right-radius: var(--layout-columns-gap) !important;
 

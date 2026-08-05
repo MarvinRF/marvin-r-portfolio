@@ -110,17 +110,9 @@ function Page() {
                 ref={(el) => {
                   projectRefs.current[index] = el;
                 }}
-                className={styles.canvas}
-              >
-                <Image
-                  priority={index === 0}
-                  sizes="100%"
-                  className={index === 0 ? styles.firstCard : index === projects.length - 1 ? styles.lastCard : undefined}
-                  src={project.img}
-                  fill
-                  alt={project.title}
-                />
-              </div>
+                style={{ backgroundColor: project.secondary }}
+                className={clsx(styles.canvas, index === 0 ? styles.firstCard : index === projects.length - 1 ? styles.lastCard : undefined)}
+              />
             </Link>
           ))}
         </div>
