@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://marvinrocha.dev/
+Host: https://marvin-r-portfolio.vercel.app/
 
 # Sitemaps
-Sitemap: https://marvinrocha.dev/sitemap.xml
+Sitemap: https://marvin-r-portfolio.vercel.app/sitemap.xml

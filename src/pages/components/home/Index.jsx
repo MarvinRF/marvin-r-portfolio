@@ -225,12 +225,13 @@ function Home() {
     <section ref={rootRef} className={clsx(styles.root)}>
       <div className={clsx(styles.topContainer, 'layout-grid-inner')}>
         <div className={styles.leftContainer}>
-          <h2 className="h2">Accessible</h2>
-          <h2 className={clsx('h2', 'bold')}>Digital Ecosystems</h2>
+          <h2 className="h2">Reliable</h2>
+          <h2 className={clsx('h2', 'bold')}>AI Products</h2>
         </div>
         {!isMobile && (
           <h6 className={clsx('h6', styles.rightContainer)}>
-            Senior Fullstack Engineer building mission-critical systems where extreme performance meets rigorous WCAG 2.2 compliance. Next.js, NestJS, Kafka, DDD & AWS.
+            Applied AI Engineer shipping LLM agents, RAG and evals that are safe to put in front of real users, from the eval harness to an accessible, fast interface. TypeScript & Python · Next.js ·
+            NestJS · AWS · GCP.
           </h6>
         )}
       </div>
@@ -250,7 +251,11 @@ function Home() {
       </div>
       {isMobile && (
         <div className={styles.rightContainerMobile}>
-          <h6 className="h6"> Senior Fullstack Engineer building mission-critical systems where extreme performance meets rigorous WCAG 2.2 compliance. Next.js, NestJS, Kafka, DDD & AWS.</h6>
+          <h6 className="h6">
+            {' '}
+            Applied AI Engineer shipping LLM agents, RAG and evals that are safe to put in front of real users, from the eval harness to an accessible, fast interface. TypeScript & Python · Next.js ·
+            NestJS · AWS · GCP.
+          </h6>
         </div>
       )}
 

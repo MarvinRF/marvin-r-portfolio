@@ -2,14 +2,14 @@ import NextHead from 'next/head';
 import { NextSeo } from 'next-seo';
 import PropTypes from 'prop-types';
 
-const SITE_URL = 'https://marvinrocha.dev';
+const SITE_URL = 'https://marvin-r-portfolio.vercel.app';
 const OG_IMAGE = `${SITE_URL}/og.png`;
 
 const getSchema = () => ({
   '@context': 'http://schema.org',
   '@type': 'Person',
   name: 'Marvin Rocha',
-  jobTitle: 'Senior Fullstack Engineer',
+  jobTitle: 'Applied AI Engineer',
   url: SITE_URL,
   image: OG_IMAGE,
   email: 'mailto:marvinvca@outlook.com',
@@ -30,7 +30,7 @@ function CustomHead({ title = '', description, keywords }) {
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta httpEquiv="x-dns-prefetch-control" content="off" />
         <meta name="robots" content={process.env.NODE_ENV !== 'development' ? 'index,follow' : 'noindex,nofollow'} />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="keywords" content={keywords && keywords.length ? keywords.join(',') : keywords} />
         <meta name="author" content="Marvin Rocha" />
         <meta name="referrer" content="no-referrer" />

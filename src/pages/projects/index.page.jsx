@@ -17,9 +17,11 @@ import { useWindowSize } from '@darkroom.engineering/hamo';
 
 const seo = {
   title: 'Marvin Rocha - Projects',
-  description: 'Explore case studies from Saipos, TARGIT Brasil, T-Alpha, TELUS International, Valença City Hall, and Sign-IC (UFBA) — fullstack engineering, accessibility, and performance work.',
+  description:
+    'Explore case studies from Viaflow, Saipos, TARGIT Brasil, T-Alpha, Nestjs Docfy, TELUS International, Valença City Hall, and Sign-IC (UFBA): AI engineering, fullstack, accessibility, and performance work.',
   keywords: [
     'Marvin Rocha Projects',
+    'AI Engineering Case Studies',
     'Portfolio Showcase',
     'Fullstack Engineering Case Studies',
     'Accessibility WCAG Projects',

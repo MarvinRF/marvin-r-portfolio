@@ -1,6 +1,29 @@
 /* eslint-disable react/jsx-key */
 const containt = [
   {
+    smallTitle: 'AI',
+    bigTitle: 'AI Engineering',
+    desc: [
+      <div className="p-l">I design AI systems where the model interprets and deterministic code decides.</div>,
+      <div className="p-l">LLM output is treated as a claim, not a fact: every critical step is validated,</div>,
+      <div className="p-l">tested and auditable, in regulated industries like healthcare and fintech.</div>,
+    ],
+    descMobile: [
+      <div className="p-l">I design AI systems where the model interprets and deterministic</div>,
+      <div className="p-l">code decides. LLM output is treated as a claim, not a fact: every</div>,
+      <div className="p-l">critical step is validated, tested and auditable, in regulated</div>,
+      <div className="p-l">industries like healthcare and fintech.</div>,
+    ],
+    options: [
+      { title: 'LLM Agents', desc: 'Ship production agents with Claude and OpenAI behind provider-agnostic abstractions' },
+      { title: 'Deterministic Orchestration', desc: 'Keep conversation control in finite-state machines, using the model only for language understanding' },
+      { title: 'Evals & Guardrails', desc: 'Gate releases with adversarial eval harnesses and revalidate every field the model extracts' },
+      { title: 'RAG Pipelines', desc: 'Ground agents in enterprise knowledge bases with Python retrieval pipelines' },
+      { title: 'Model Context Protocol (MCP)', desc: 'Expose API contracts as tools for coding agents' },
+      { title: 'Compliance by Design', desc: 'Run auditable AI under ANS, BCB and ANPD oversight' },
+    ],
+  },
+  {
     smallTitle: 'A11y',
     bigTitle: 'Accessibility & Compliance',
     desc: [
@@ -24,52 +47,30 @@ const containt = [
     ],
   },
   {
-    smallTitle: 'Perf',
-    bigTitle: 'Architecture & Performance',
+    smallTitle: 'Stack',
+    bigTitle: 'Fullstack & Cloud',
     desc: [
-      <div className="p-l">I architect resilient backends with DDD/Clean Architecture and event-driven</div>,
-      <div className="p-l">systems, while optimizing Core Web Vitals on the frontend. From Next.js 15 to</div>,
-      <div className="p-l">NestJS and Kafka, I deliver systems built to scale.</div>,
+      <div className="p-l">I build event-driven backends with NestJS and DDD, fast Next.js front ends with</div>,
+      <div className="p-l">sub-1s LCP, and cloud infrastructure as code on AWS and GCP, so AI features</div>,
+      <div className="p-l">run on a foundation built to scale.</div>,
     ],
     descMobile: [
-      <div className="p-l">I architect resilient backends with DDD/Clean Architecture and</div>,
-      <div className="p-l">event-driven systems, while optimizing Core Web Vitals on the</div>,
-      <div className="p-l">frontend. From Next.js 15 to NestJS and Kafka, I deliver systems</div>,
-      <div className="p-l">built to scale.</div>,
+      <div className="p-l">I build event-driven backends with NestJS and DDD, fast Next.js</div>,
+      <div className="p-l">front ends with sub-1s LCP, and cloud infrastructure as code on</div>,
+      <div className="p-l">AWS and GCP, so AI features run on a foundation built to</div>,
+      <div className="p-l">scale.</div>,
     ],
     options: [
-      { title: 'Next.js 15 (SSR/SSG)', desc: 'Ship fast, SEO-friendly interfaces with modern rendering strategies' },
+      { title: 'Next.js 15 & React', desc: 'Ship fast, accessible interfaces with modern rendering strategies' },
       { title: 'NestJS & Microservices', desc: 'Architect domain-driven backends with Clean Architecture principles' },
-      { title: 'Kafka & RabbitMQ', desc: 'Build event-driven systems with reliable async messaging' },
+      { title: 'Kafka, RabbitMQ & pg-boss', desc: 'Build event-driven systems with reliable async workflows' },
       { title: 'Core Web Vitals Optimization', desc: 'Achieve sub-1s LCP and near-perfect Lighthouse scores' },
-      { title: 'React Native / Expo', desc: 'Extend accessible, performant experiences to mobile' },
-      { title: 'Technical SEO', desc: 'Align architecture with search intent and Schema markup for organic reach' },
-    ],
-  },
-  {
-    smallTitle: 'Cloud',
-    bigTitle: 'Data, AI & Cloud',
-    desc: [
-      <div className="p-l">I design data layers and deploy AI-driven features that reduce manual work,</div>,
-      <div className="p-l">backed by cloud infrastructure as code on AWS (Terraform, Lambda, API Gateway,</div>,
-      <div className="p-l">DynamoDB, S3 & CloudFront) — currently preparing for the AWS certification exam.</div>,
-    ],
-    descMobile: [
-      <div className="p-l">I design data layers and deploy AI-driven features that reduce</div>,
-      <div className="p-l">manual work, backed by cloud infrastructure as code on AWS</div>,
-      <div className="p-l">(Terraform, Lambda, API Gateway, DynamoDB, S3 & CloudFront) —</div>,
-      <div className="p-l">currently preparing for the AWS certification exam.</div>,
-    ],
-    options: [
-      { title: 'AWS Lambda & API Gateway', desc: 'Design event-driven serverless APIs with pay-per-use scalability' },
-      { title: 'DynamoDB', desc: 'Model low-latency NoSQL data for high-throughput serverless workloads' },
-      { title: 'S3 & CloudFront', desc: 'Serve static assets and media globally with edge caching and low latency' },
-      { title: 'Terraform (IaC)', desc: 'Provision and version cloud infrastructure declaratively for repeatable deployments' },
-      { title: 'PostgreSQL & MongoDB', desc: 'Design reliable relational and document data layers for production workloads' },
-      { title: 'Redis', desc: 'Cache and coordinate state for low-latency, high-throughput services' },
-      { title: 'AI Agents & Predictive Modeling', desc: 'Build contextual AI agents and forecasting pipelines that cut manual analysis time' },
+      { title: 'AWS Serverless', desc: 'Lambda, API Gateway and DynamoDB for pay-per-use, scalable APIs' },
+      { title: 'GCP', desc: 'Run multi-service production workloads on Google Cloud' },
+      { title: 'Terraform (IaC)', desc: 'Provision and version cloud infrastructure declaratively' },
+      { title: 'PostgreSQL & Redis', desc: 'Design reliable data layers and low-latency caching' },
       { title: 'Docker', desc: 'Containerize services for consistent, reproducible deployments' },
-      { title: 'Cloudflare Workers & Vercel Edge', desc: 'Deploy edge solutions that reduce global latency and maximize availability' },
+      { title: 'Cloudflare Workers & Vercel Edge', desc: 'Deploy edge solutions that reduce global latency' },
     ],
   },
 ];

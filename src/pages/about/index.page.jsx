@@ -8,11 +8,13 @@ import CustomHead from '@src/components/dom/CustomHead';
 const seo = {
   title: 'Marvin Rocha - About',
   description:
-    'Learn about my journey as a Fullstack Engineer and Digital Accessibility Expert (WCAG 2.2 / WAS Candidate) — engineering digital ecosystems where extreme performance meets rigorous compliance.',
+    'Learn about my journey as an Applied AI Engineer and Fullstack Engineer: LLM agents, RAG and evals for regulated industries, built on accessible (WCAG 2.2, IAAP WAS Candidate) and fast interfaces.',
   keywords: [
     'Marvin Rocha',
     'About Marvin Rocha',
     'About me',
+    'Applied AI Engineer',
+    'LLM Agents & RAG',
     'Fullstack Engineer Journey',
     'Accessibility Expert',
     'Professional Web Development',

@@ -121,7 +121,7 @@ function MyApp({ Component, pageProps, router }) {
 
   return (
     <>
-      <Stats />
+      {process.env.NODE_ENV === 'development' && <Stats />}
       <div className={styles.root}>
         {domElements}
         <div ref={layoutRef} id="layout" className={styles.layout}>

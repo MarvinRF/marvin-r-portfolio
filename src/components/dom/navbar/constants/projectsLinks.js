@@ -1,7 +1,7 @@
 const projectsLinks = [
   {
-    title: 'Saipos',
-    href: '/projects/saipos',
+    title: 'Viaflow',
+    href: '/projects/viaflow',
   },
   {
     title: 'TARGIT Brasil',

@@ -60,8 +60,8 @@ function About() {
         <div className={clsx(styles.descWrapper)} ref={animatedImageRef}>
           <AppearTitle>
             <div className="p-l">
-              “Building mission-critical systems where extreme performance meets rigorous WCAG 2.2 compliance! that&apos;s what drives me to solve problems creatively and deliver on your project
-              goals”
+              “Models are probabilistic. Products shouldn&apos;t be. I design AI systems where the model interprets and deterministic code decides, so every critical step is validated, tested and
+              auditable.”
             </div>
           </AppearTitle>
         </div>
@@ -70,16 +70,16 @@ function About() {
           {!isMobile ? (
             <AppearTitle key="desktop-descWrapperBottom">
               <h6 className="h6">
-                A Fullstack Engineer from Brazil, building resilient backends with DDD/Clean Architecture while ensuring the products they power are inclusive, lightning-fast, and legally secure. IAAP
-                WAS Candidate, M.Sc. student at UFBA.
+                An Applied AI Engineer from Brazil, shipping LLM agents, RAG pipelines and evals for regulated industries (healthcare and fintech), with accessible, fast interfaces. IAAP WAS
+                Candidate, M.Sc. student at UFBA.
               </h6>
             </AppearTitle>
           ) : (
             <AppearTitle key="mobile-descWrapperBottom">
-              <h6 className="h6"> A Fullstack Engineer from Brazil, building resilient</h6>
-              <h6 className="h6">backends with DDD/Clean Architecture while ensuring the</h6>
-              <h6 className="h6">products they power are inclusive, lightning-fast, and legally</h6>
-              <h6 className="h6">secure. IAAP WAS Candidate, M.Sc. student at UFBA.</h6>
+              <h6 className="h6">An Applied AI Engineer from Brazil, shipping LLM</h6>
+              <h6 className="h6">agents, RAG pipelines and evals for regulated</h6>
+              <h6 className="h6">industries, with accessible, fast interfaces. IAAP</h6>
+              <h6 className="h6">WAS Candidate, M.Sc. student at UFBA.</h6>
             </AppearTitle>
           )}
           <div className={clsx(styles.buttonContainer)}>

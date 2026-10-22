@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: 'https://marvinrocha.dev/',
+  siteUrl: 'https://marvin-r-portfolio.vercel.app/',
   generateRobotsTxt: true, // (optional)
   generateIndexSitemap: false,
 };
