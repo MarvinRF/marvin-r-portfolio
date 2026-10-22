@@ -120,6 +120,60 @@ function Clients() {
         }}
         className={styles.second}
       >
+        <Badge name="company4" />
+      </div>
+      {isMobile ? <div className={styles.mobileEmptySecond} /> : null}
+      {isMobile ? (
+        <div className={styles.textMobile}>
+          <AppearTitle>
+            <h4 className={clsx('h4', 'bold')}>Saipos</h4>
+          </AppearTitle>
+          <AppearTitle>
+            <div className="p-l">Software Engineer leading front-end</div>
+            <div className="p-l">engineering for the Saipos brand relaunch:</div>
+            <div className="p-l">Astro and Next.js 15 in partnership with</div>
+            <div className="p-l">design and product, sub-1s LCP and</div>
+            <div className="p-l">WCAG 2.2 AA (AAA where applicable).</div>
+          </AppearTitle>
+        </div>
+      ) : null}
+      {!isMobile ? (
+        <>
+          <div
+            ref={(el) => {
+              textRefs.current[1] = el;
+            }}
+            className={styles.secondText}
+          >
+            <AppearTitle>
+              <h6 className="h6">2026</h6>
+            </AppearTitle>
+            <AppearTitle>
+              <h4 className={clsx('h4', 'bold', styles.title)}>Saipos</h4>
+            </AppearTitle>
+            <AppearTitle>
+              <div className="p-l">Software Engineer leading front-end</div>
+              <div className="p-l">engineering for the Saipos brand relaunch:</div>
+              <div className="p-l">Astro and Next.js 15 in partnership with</div>
+              <div className="p-l">design and product, sub-1s LCP and</div>
+              <div className="p-l">WCAG 2.2 AA (AAA where applicable).</div>
+            </AppearTitle>
+          </div>
+          <div className={styles.fourthEmpty} />
+        </>
+      ) : null}
+      {isMobile ? <div className={styles.mobileEmpty} /> : null}
+      {isMobile ? (
+        <div className={styles.mobileCount}>
+          <AppearTitle>2026</AppearTitle>
+        </div>
+      ) : null}
+      <div
+        ref={(el) => {
+          badgeRefs.current[2] = el;
+        }}
+        className={styles.third}
+      >
         <Badge name="company3" />
       </div>
       {isMobile ? <div className={styles.mobileEmptySecond} /> : null}
@@ -139,11 +193,12 @@ function Clients() {
       ) : null}
       {!isMobile ? (
         <>
+          <div className={styles.fifthEmpty} />
           <div
             ref={(el) => {
-              textRefs.current[1] = el;
+              textRefs.current[2] = el;
             }}
-            className={styles.secondText}
+            className={styles.thirdText}
           >
             <AppearTitle>
               <h6 className="h6">2026</h6>
@@ -159,7 +214,6 @@ function Clients() {
               <div className="p-l">data-heavy dashboards.</div>
             </AppearTitle>
           </div>
-          <div className={styles.fourthEmpty} />
         </>
       ) : null}
       {isMobile ? <div className={styles.mobileEmpty} /> : null}
@@ -170,9 +224,9 @@ function Clients() {
       ) : null}
       <div
         ref={(el) => {
-          badgeRefs.current[2] = el;
+          badgeRefs.current[3] = el;
         }}
-        className={styles.third}
+        className={styles.fourth}
       >
         <Badge name="company2" />
       </div>
@@ -193,12 +247,12 @@ function Clients() {
       ) : null}
       {!isMobile ? (
         <>
-          <div className={styles.fifthEmpty} />
+          <div className={styles.sixthEmpty} />
           <div
             ref={(el) => {
-              textRefs.current[2] = el;
+              textRefs.current[3] = el;
             }}
-            className={styles.thirdText}
+            className={styles.fourthText}
           >
             <AppearTitle>
               <h6 className="h6">2024</h6>
